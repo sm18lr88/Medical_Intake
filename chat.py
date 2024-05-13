@@ -23,7 +23,7 @@ def open_file(filepath):
 ###     API functions
 
 
-def chatbot(conversation, model="gpt-4-0613", temperature=0, max_tokens=2000):
+def chatbot(conversation, model="gpt-4-turbo", temperature=0, max_tokens=4000):
     max_retry = 7
     retry = 0
     while True:
